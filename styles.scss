@@ -1,3 +1,6 @@
+$gradient-min: #8b008b;
+$gradient-max: #ff00ff;
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +14,7 @@ body {
   z-index: 10;
 }
 .navbar {
-  background-image: linear-gradient(to right, #8b008b, #ff00ff);
+  background-image: linear-gradient(to right, $gradient-min, $gradient-max);
   padding: 0;
 }
 .navbar-brand img {
@@ -38,7 +41,7 @@ body {
 /*-------------------banner section---------------*/
 
 #banner {
-  background-image: linear-gradient(to right, #8b008b, #ff00ff);
+  background-image: linear-gradient(to right, $gradient-min, $gradient-max);
   color: #fff;
   padding-top: 5%;
 }
@@ -72,7 +75,7 @@ body {
 }
 .title::before {
   content: "";
-  background-color: #8b008b;
+  background-color: $gradient-min;
   height: 5px;
   width: 200px;
   margin-left: auto;
@@ -82,7 +85,7 @@ body {
 }
 .title::after {
   content: "";
-  background-color: #8b008b;
+  background-color: $gradient-min;
   height: 10px;
   width: 50px;
   margin-left: auto;
@@ -96,7 +99,7 @@ body {
   padding: 8px 25px;
   border: none;
   border-radius: 20px;
-  background-image: linear-gradient(to right, #8b008b, #ff00ff);
+  background-image: linear-gradient(to right, $gradient-min, $gradient-max);
 }
 
 /*-------------------------------------------about us section*/
@@ -126,25 +129,28 @@ body {
 #social-media {
   background: #fff;
   padding: 100px 0;
+  p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
 }
-#social-media p {
-  font-size: 36px;
-  font-weight: 600;
-  margin-bottom: 30px;
+.social-icons {
+  img {
+    width: 60px;
+    height: 60px;
+    transition: 0.5s;
+  }
+  a:hover img {
+    transform: translateY(-10px);
+  }
 }
-.social-icons img {
-  width: 60px;
-  height: 60px;
-  transition: 0.5s;
-}
-.social-icons a:hover img {
-  transform: translateY(-10px);
-}
+
 
 /*-------------------------footer section---------------*/
 
 #footer {
-  background: linear-gradient(to right, #8b008b, #ff00ff);
+  background: linear-gradient(to right, $gradient-min, $gradient-max);
   color: #fff;
 }
 
@@ -163,7 +169,7 @@ body {
   text-align: center;
   padding-top: 7px;
   border-radius: 2px;
-  background-color: linear-gradient(to right, #8b008b, #ff00ff);
+  background-color: linear-gradient(to right, $gradient-min, $gradient-max);
 }
 .footer-box .form-control {
   box-shadow: none !important;
@@ -177,5 +183,5 @@ body {
   border: none;
   border-radius: 0;
   margin-top: 30px;
-  background-image: linear-gradient(to right, #8b008b, #ff00ff);
+  background-image: linear-gradient(to right, $gradient-min, $gradient-max);
 }
