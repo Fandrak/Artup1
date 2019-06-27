@@ -146,7 +146,6 @@ body {
   }
 }
 
-
 /*-------------------------footer section---------------*/
 
 #footer {
@@ -184,4 +183,34 @@ body {
   border-radius: 0;
   margin-top: 30px;
   background-image: linear-gradient(to right, $gradient-min, $gradient-max);
+}
+
+/*--------------------------------------------------ADmin--------------------------------------------*/
+
+#admin {
+  background-image: linear-gradient(to right, $gradient-min, $gradient-max);
+  padding: 50px;
+  color: #fff;
+}
+
+.btn-primary {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 30px;
+  background-image: linear-gradient(to right, $gradient-min, $gradient-max);
+}
+.form-control {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 25px;
+  max-width: 250px;
+}
+#admin-image {
+  background: black;
+  padding: 100px;
+}
+.user {
+  padding: 100px;
 }

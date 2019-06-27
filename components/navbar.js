@@ -53,7 +53,7 @@ const Navbar = ({ user }) => (
           </li>
           <li className="nav-item">
             {!user ? (
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/admin">
                 Employees
               </a>
             ) : (
