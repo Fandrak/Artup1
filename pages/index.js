@@ -10,9 +10,9 @@ import Footer from "../components/footer";
 
 import "../styles.scss";
 
-const Index = () => (
+const Index = ({ user }) => (
   <>
-    <Navbar user="abc" />
+    <Navbar user={user} />
     <Banner />
     <Services />
     <About />

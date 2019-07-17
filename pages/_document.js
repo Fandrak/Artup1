@@ -5,8 +5,6 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <title>ARTup</title>
-          <link rel="stylesheet" href="style.css" />
           <link
             rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
